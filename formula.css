@@ -19,3 +19,12 @@ main {
 math {
   font-family: sans-serif;
 }
+
+mo {
+  font-weight: bold;
+}
+
+:focus {
+  outline-width: thick;
+  outline-style: outline;
+}
