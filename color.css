@@ -1,24 +1,32 @@
 ::selection {
-  background: hotpink;
-  color: black;
+  background: black;
+  color: whitesmoke;
 }
 
 :root {
-  color: #ccc;
-  background: #111;
+  color: floralwhite;
+  background: green;
+}
+
+@media
+  (prefers-contrast: more),
+  (prefers-color-scheme: dark) {
+  :root {
+    background: darkgreen;
+  }
 }
 
 :link {
-  color: hotpink;
+  color: inherit;
 }
 
 :visited {
-  color: violet;
+  color: inherit;
 }
 
 :focus {
   text-shadow:
-    -5px 0 0 plum,
-    3px 3px 0 plum,
-    3px -3px 0 plum;
+    -5px 0 0 yellow,
+    3px 3px 0 yellow,
+    3px -3px 0 yellow;
 }
