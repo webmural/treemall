@@ -16,11 +16,7 @@
   }
 }
 
-:link {
-  color: inherit;
-}
-
-:visited {
+:any-link {
   color: inherit;
 }
 
